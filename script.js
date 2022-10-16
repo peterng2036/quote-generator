@@ -40,7 +40,7 @@ function updateQuote() {
 }
 
 function tweetQuote() {
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${quote.text} - ${quote.author}`;
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${quote.text}`;
   window.open(twitterUrl, "_blank");
 }
 
